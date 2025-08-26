@@ -78,8 +78,12 @@ git clone https://github.com/yourusername/ironhack-payments-cohort-analysis.git
 cd ironhack-payments-cohort-analysis
 
 # 3. Open the notebook
-```bash
 jupyter notebook "ironhack_payments.ipynb"
+
+---
+
+## 📁 Repo Structure
+```bash
 
 ├── ironhack_payments.ipynb                 # Jupyter Notebook with cleaning, EDA, cohort analysis
 ├── extract - cash request - data analyst.xlsx   # Cash requests dataset
