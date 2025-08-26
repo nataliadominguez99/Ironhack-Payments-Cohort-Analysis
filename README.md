@@ -84,7 +84,7 @@ jupyter notebook "ironhack_payments.ipynb"
 
 ## 📁 Repo Structure
 ```bash
-├── Business Challenge Data Cleaning and EDA.pdf   # PDF report with data cleaning steps and exploratory data analysis
-├── Vehicles Sales Business Questions.sql          # SQL script containing business questions and queries
-├── Vehicles Sales Data Analysis.ipynb             # Jupyter Notebook with detailed data analysis and visualizations
-└── sales_data_sample.csv                          # Dataset used for the analysis
+├── Cohort Analysis - Ironhack payments Code              # Jupyter Notebook with cleaning, EDA, cohort analysis
+├── Extract - Cash Request.xlsx   # Cash requests dataset
+├── Extract - Fees.xlsx           # Fees and revenue dataset
+├── Lexique - Data Analyst.xlsx                  # Data dictionary
