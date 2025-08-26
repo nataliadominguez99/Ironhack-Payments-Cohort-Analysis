@@ -82,6 +82,7 @@ jupyter notebook "ironhack_payments.ipynb"
 
 ---
 
+## 📁 Repo Structure
 ```bash
 ├── ironhack_payments.ipynb                 # Jupyter Notebook with cleaning, EDA, cohort analysis
 ├── extract - cash request - data analyst.xlsx   # Cash requests dataset
