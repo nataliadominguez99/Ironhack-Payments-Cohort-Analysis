@@ -56,10 +56,10 @@ The cohort analysis tracks:
 
 ## 📌 Main Findings
 
-- **Seasonality:** Sales peak in Q4, likely due to holiday demand  
-- **Top Performers:** Classic Cars consistently generate the highest revenue  
-- **Regional Insight:** USA dominates sales volume, but EMEA excels in high-end products  
-- **Deal Size:** Large deals cluster in specific product lines and regions  
+- Service usage decreases after the first months for most cohorts  
+- Some cohorts show higher incident rates  
+- Early cohorts generate higher total revenue  
+- Retention metric highlights user loyalty differences   
 
 ---
 
@@ -67,24 +67,24 @@ The cohort analysis tracks:
 
 **Prerequisites:**
 - Python **3.10+**
-- Libraries: `pandas`, `matplotlib`, `seaborn`, `numpy`
+- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`
 
 **Run Instructions:**
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/nataliadominguez99/Vehicles-Sales-Project.git
+   git clone https://github.com/yourusername/ironhack-payments-cohort-analysis.git
 
 2. **Navigate to the project folder**
    ```bash
-    cd Vehicles-Sales-Project
+    cd ironhack-payments-cohort-analysis
 
 3. **Open the Jupyter Notebook**
 - If you use Jupyter Notebook:
    ```bash
-   jupyter notebook "Vehicles Sales Data Analysis.ipynb"
+   jupyter notebook "ironhack_payments.ipynb"
 - Or, open it in VSCode by double-clicking the file or using:
    ```bash
-    code "Vehicles Sales Data Analysis.ipynb"
+    code "ironhack_payments.ipynb"
   
 4. **Ensure the dataset is in the correct location**
 - The file sales_data_sample.csv must be in the same directory as the notebook.
