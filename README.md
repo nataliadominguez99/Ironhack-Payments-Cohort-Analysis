@@ -81,15 +81,15 @@ Identify sales patterns by product line, time period, and geographical region, a
 
 ## 🚀 Next Steps
 
-- Build predictive models to forecast sales by product line  
-- Conduct customer segmentation for targeted marketing strategies  
-- Integrate external datasets (e.g., economic indicators) for deeper insights  
+- Build predictive models to forecast user retention and revenue  
 
 ---
 
 ## 📁 Repo Structure
 ```bash
-├── Business Challenge Data Cleaning and EDA.pdf   # PDF report with data cleaning steps and exploratory data analysis
-├── Vehicles Sales Business Questions.sql          # SQL script containing business questions and queries
-├── Vehicles Sales Data Analysis.ipynb             # Jupyter Notebook with detailed data analysis and visualizations
-└── sales_data_sample.csv                          # Dataset used for the analysis
+├── Cohort Analysis - Ironhack payments Code.ipynb     # Jupyter Notebook with cleaning, EDA, cohort analysis
+├── Cohort Analysis - Ironhack payments.pdf            # PDF report
+├── extract - cash request.xlsx                        # Cash requests dataset
+├── extract - fees.xlsx                                # Fees and revenue dataset
+├── Lexique.xlsx                                       # Data dictionary
+└── README.md                                          # Project documentation
