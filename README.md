@@ -5,7 +5,7 @@ The objective is to understand how service usage, incidents, and revenue evolve 
 
 ---
 
-## 📂 Dataset
+## 📂 Dataset Description
 
 - **Source:** Data provided by Ironhack Payments  
 - **Files used in the analysis:**  
@@ -28,28 +28,29 @@ The cohort analysis tracks:
 - **Service Usage Frequency** – how often users from each cohort request cash advances over time  
 - **Incident Rate** – incidents per cohort  
 - **Revenue** – financial performance per cohort  
-- **Additional Metric** – retention / user behavior measure  
+- **Additional Metric** – retention / user behavior measure
 
 ---
 
 ## 🛠 Steps Taken
 
-### Data Cleaning
-- Handled missing values and duplicates  
-- Standardized date formats  
-- Removed irrelevant columns  
+1. **Data Cleaning**
+   - Handled missing values in key columns
+   - Reformatted date columns for consistency
+   - Removed duplicates and irrelevant columns
 
-### Exploratory Data Analysis (EDA)
-- Descriptive statistics for users, requests, and fees  
-- Visualizations (line plots, bar charts, heatmaps)  
-- Detection of anomalies and patterns  
+2. **Exploratory Data Analysis (EDA)**
+   - Descriptive statistics for users, requests, and fees  
+  - Visualizations (line plots, bar charts, heatmaps)  
+  - Detection of anomalies and patterns 
 
-### Cohort Analysis
-- Cohorts defined by first cash advance month  
-- Metrics computed per cohort and tracked over time  
+3. **Cohort Analysis**
+   - Cohorts defined by first cash advance month
+   - Metrics computed per cohort and tracked over time
 
-### Visualization
-- Cohort tables and charts   
+4. **Visualization**
+- Cohort tables and charts  
+- Tableau dashboard
 
 ---
 
@@ -64,33 +65,44 @@ The cohort analysis tracks:
 
 ## 💻 How to Reproduce
 
-**Requirements:**  
-- Python 3.10+  
+**Prerequisites:**
+- Python **3.10+**
 - Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`
 
-**Run Instructions:**  
+**Run Instructions:**
+1. Clone the repository
+  ```bash
+  git clone https://github.com/yourusername/ironhack-payments-cohort-analysis.git
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/ironhack-payments-cohort-analysis.git
+2. **Navigate to the project folder**
+   ```bash
+    cd ironhack-payments-cohort-analysis
 
-# 2. Navigate to the folder
-cd ironhack-payments-cohort-analysis
+3. **Open the Jupyter Notebook**
+- If you use Jupyter Notebook:
+   ```bash
+   jupyter notebook "ironhack_payments.ipynb"
+- Or, open it in VSCode by double-clicking the file or using:
+   ```bash
+    code "ironhack_payments.ipynb"
+  
+4. **Ensure the dataset is in the correct location**
+- The file sales_data_sample.csv must be in the same directory as the notebook.
 
-# 3. Open the notebook
-jupyter notebook "ironhack_payments.ipynb"
+5. Run all cells
+- Select Cell > Run All in Jupyter Notebook or VSCode to reproduce the analysis.
+
+## 🚀 Next Steps
+
+- Build predictive models to forecast user retention and revenue 
 
 ---
 
 ## 📁 Repo Structure
 ```bash
-
-├── ironhack_payments.ipynb                 # Jupyter Notebook with cleaning, EDA, cohort analysis
-├── extract - cash request - data analyst.xlsx   # Cash requests dataset
-├── extract - fees - data analyst.xlsx           # Fees and revenue dataset
-├── Lexique - Data Analyst.xlsx                  # Data dictionary
-├── Tableau Dashboard/                           # Tableau visualizations
-├── Data Quality and EDA Report.pdf              # Data quality and EDA report
-├── requirements.txt                             # Python dependencies
-└── README.md                                    # Project documentation
-
+├── Cohort Analysis - Ironhack payments Code.ipynb     # Jupyter Notebook with cleaning, EDA, cohort analysis
+├── Cohort Analysis - Ironhack payments.pdf            # PDF report
+├── extract - cash request.xlsx                        # Cash requests dataset
+├── extract - fees.xlsx                                # Fees and revenue dataset
+├── Lexique.xlsx                                       # Data dictionary
+└── README.md                                          # Project documentation
