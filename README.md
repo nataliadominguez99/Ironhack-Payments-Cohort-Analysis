@@ -81,10 +81,10 @@ The cohort analysis tracks:
 3. **Open the Jupyter Notebook**
 - If you use Jupyter Notebook:
    ```bash
-   jupyter notebook "ironhack_payments.ipynb"
+   jupyter notebook "Cohort Analysis - Ironhack payments Code.ipynb"
 - Or, open it in VSCode by double-clicking the file or using:
    ```bash
-    code "ironhack_payments.ipynb"
+    code "Cohort Analysis - Ironhack payments Code.ipynb"
   
 4. **Ensure the dataset is in the correct location**
 - The file sales_data_sample.csv must be in the same directory as the notebook.
