@@ -78,4 +78,15 @@ git clone https://github.com/yourusername/ironhack-payments-cohort-analysis.git
 cd ironhack-payments-cohort-analysis
 
 # 3. Open the notebook
+
+```bash
 jupyter notebook "ironhack_payments.ipynb"
+
+├── ironhack_payments.ipynb                 # Jupyter Notebook with cleaning, EDA, cohort analysis
+├── extract - cash request - data analyst.xlsx   # Cash requests dataset
+├── extract - fees - data analyst.xlsx           # Fees and revenue dataset
+├── Lexique - Data Analyst.xlsx                  # Data dictionary
+├── Tableau Dashboard/                           # Tableau visualizations
+├── Data Quality and EDA Report.pdf              # Data quality and EDA report
+├── requirements.txt                             # Python dependencies
+└── README.md                                    # Project documentation
