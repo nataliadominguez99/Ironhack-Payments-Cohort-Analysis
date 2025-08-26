@@ -47,6 +47,10 @@ The cohort analysis tracks:
 3. **Cohort Analysis**
    - Cohorts defined by first cash advance month
    - Metrics computed per cohort and tracked over time
+  
+4. **Visualization**
+- Cohort tables and charts  
+- Tableau dashboard
 
 ---
 
