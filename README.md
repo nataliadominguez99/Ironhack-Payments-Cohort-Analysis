@@ -40,12 +40,13 @@ The cohort analysis tracks:
    - Removed duplicates and irrelevant columns
 
 2. **Exploratory Data Analysis (EDA)**
-   - Summary statistics for sales and product lines
-   - Grouped sales by month, quarter, and product category
-   - Visualized trends with boxplots, bar charts, and line plots
+   - Descriptive statistics for users, requests, and fees  
+  - Visualizations (line plots, bar charts, heatmaps)  
+  - Detection of anomalies and patterns 
 
-3. **SQL Integration**
-   - Queried dataset to answer business questions
+3. **Cohort Analysis**
+   - Cohorts defined by first cash advance month
+   - Metrics computed per cohort and tracked over time
 
 ---
 
