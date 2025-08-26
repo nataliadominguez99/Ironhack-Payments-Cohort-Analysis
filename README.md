@@ -1,6 +1,7 @@
-# 📊 Vehicle Sales Data Analysis
+# 📊 Ironhack Payments Cohort Analysis
 
-Exploring sales transactions of classic and specialty vehicles to uncover trends in customer behavior, product performance, and geographical sales distribution.
+This project analyzes the behavior of users and financial metrics of **Ironhack Payments’ cash advance service** through a **cohort analysis**.  
+The objective is to understand how service usage, incidents, and revenue evolve over time for different user cohorts.
 
 ---
 
