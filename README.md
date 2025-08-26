@@ -70,7 +70,7 @@ The cohort analysis tracks:
 - Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`
 
 **Run Instructions:**
-1. Clone the repository
+1. **Clone the repository**
   ```bash
   git clone https://github.com/yourusername/ironhack-payments-cohort-analysis.git
 
