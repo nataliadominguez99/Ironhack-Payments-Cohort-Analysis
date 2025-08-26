@@ -84,11 +84,8 @@ jupyter notebook "ironhack_payments.ipynb"
 
 ## 📁 Repo Structure
 ```bash
-├── ironhack_payments.ipynb                 # Jupyter Notebook with cleaning, EDA, cohort analysis
-├── extract - cash request - data analyst.xlsx   # Cash requests dataset
-├── extract - fees - data analyst.xlsx           # Fees and revenue dataset
-├── Lexique - Data Analyst.xlsx                  # Data dictionary
-├── Tableau Dashboard/                           # Tableau visualizations
-├── Data Quality and EDA Report.pdf              # Data quality and EDA report
-├── requirements.txt                             # Python dependencies
-└── README.md                                    # Project documentation
+├── Business Challenge Data Cleaning and EDA.pdf   # PDF report with data cleaning steps and exploratory data analysis
+├── Vehicles Sales Business Questions.sql          # SQL script containing business questions and queries
+├── Vehicles Sales Data Analysis.ipynb             # Jupyter Notebook with detailed data analysis and visualizations
+└── sales_data_sample.csv                          # Dataset used for the analysis
+
