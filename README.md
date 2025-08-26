@@ -7,15 +7,17 @@ The objective is to understand how service usage, incidents, and revenue evolve 
 
 ## 📂 Dataset Description
 
-- **Dataset Source:** [Kaggle – Sample Sales Data](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data)
-- **Size:** 2,823 rows × 25 columns
-  
-**Notable Quirks:**
-- **No Unique Key:** The dataset does not have a primary key to uniquely identify each row.  
-- **Order-to-Product Relationship:** A single `ORDERNUMBER` can be linked to multiple `PRODUCTCODE` entries, meaning each row represents a line item within an order rather than the entire order.  
-- **Null Values:** Several columns (`ADDRESSLINE2`, `STATE`, `POSTALCODE`, `TERRITORY`) contain a significant number of missing values.  
-- **Sales Column Discrepancy:** The `SALES` column represents `QUANTITYORDERED × PRICEEACH`. However, some rows contained incorrect values (e.g., a flat value of `100`) caused by data entry errors.  
-- **Date Format Inconsistencies:** Dates were stored in mixed formats and required standardization.  
+- **Source:** Data provided by Ironhack Payments  
+- **Files used in the analysis:**  
+  - `extract - cash request - data analyst.xlsx` → Cash advance requests  
+  - `extract - fees - data analyst.xlsx` → Fees and revenue  
+  - `Lexique - Data Analyst.xlsx` → Data dictionary  
+
+- **Key aspects:**  
+  - Cohorts are defined by the month of the first cash advance  
+  - Some fields contain missing values  
+  - Duplicate transactions exist and were cleaned  
+  - Date formats were standardized for analysis  
 
 ---
 
