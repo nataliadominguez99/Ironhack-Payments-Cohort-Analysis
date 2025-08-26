@@ -49,8 +49,7 @@ The cohort analysis tracks:
 - Metrics computed per cohort and tracked over time  
 
 ### Visualization
-- Cohort tables and charts  
-- Tableau dashboard  
+- Cohort tables and charts   
 
 ---
 
