@@ -88,4 +88,3 @@ jupyter notebook "ironhack_payments.ipynb"
 ├── Vehicles Sales Business Questions.sql          # SQL script containing business questions and queries
 ├── Vehicles Sales Data Analysis.ipynb             # Jupyter Notebook with detailed data analysis and visualizations
 └── sales_data_sample.csv                          # Dataset used for the analysis
-
