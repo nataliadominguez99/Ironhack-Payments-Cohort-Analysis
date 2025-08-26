@@ -35,18 +35,18 @@ The cohort analysis tracks:
 ## 🛠 Steps Taken
 
 1. **Data Cleaning**
-   - Handled missing values in key columns
-   - Reformatted date columns for consistency
-   - Removed duplicates and irrelevant columns
+- Handled missing values in key columns
+- Reformatted date columns for consistency
+- Removed duplicates and irrelevant columns
 
 2. **Exploratory Data Analysis (EDA)**
-   - Descriptive statistics for users, requests, and fees  
-  - Visualizations (line plots, bar charts, heatmaps)  
-  - Detection of anomalies and patterns 
+- Descriptive statistics for users, requests, and fees  
+- Visualizations (line plots, bar charts, heatmaps)  
+- Detection of anomalies and patterns 
 
 3. **Cohort Analysis**
-   - Cohorts defined by first cash advance month
-   - Metrics computed per cohort and tracked over time
+- Cohorts defined by first cash advance month
+- Metrics computed per cohort and tracked over time
   
 4. **Visualization**
 - Cohort tables and charts  
