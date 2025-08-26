@@ -23,7 +23,12 @@ The objective is to understand how service usage, incidents, and revenue evolve 
 
 ## 🎯 Research Goal
 
-Identify sales patterns by product line, time period, and geographical region, and uncover key factors influencing sales performance.
+The cohort analysis tracks:  
+
+- **Service Usage Frequency** – how often users from each cohort request cash advances over time  
+- **Incident Rate** – incidents per cohort  
+- **Revenue** – financial performance per cohort  
+- **Additional Metric** – retention / user behavior measure
 
 ---
 
