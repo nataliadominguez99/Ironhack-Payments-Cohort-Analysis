@@ -56,10 +56,10 @@ The cohort analysis tracks:
 
 ## 📌 Main Findings
 
-- Service usage decreases after the first months for most cohorts  
-- Some cohorts show higher incident rates  
-- Early cohorts generate higher total revenue  
-- Retention metric highlights user loyalty differences   
+- Retention declined sharply after the first month, highlighting onboarding and engagement challenges.
+- Incidents clustered in certain cohorts, suggesting operational improvements are needed during specific timeframes.
+- Revenue trends showed strong initial activity but sustained growth required improving retention.
+- Cohort analysis provided clear thresholds where customer engagement weakened, offering actionable insights for product teams.  
 
 ---
 
