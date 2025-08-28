@@ -13,8 +13,7 @@ The objective is to understand how service usage, incidents, and revenue evolve 
   - `extract - fees - data analyst.xlsx` → Fees and revenue  
   - `Lexique - Data Analyst.xlsx` → Data dictionary  
 
-- **Key aspects:**  
-  - Cohorts are defined by the month of the first cash advance  
+- **Key aspects:**   
   - Some fields contain missing values  
   - Duplicate transactions exist and were cleaned  
   - Date formats were standardized for analysis  
